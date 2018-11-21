@@ -1,5 +1,4 @@
 public class CodeWordChecker implements StringChecker {
-    private String str;
     private String str2;
     private int one;
     private int two;
@@ -17,5 +16,18 @@ public class CodeWordChecker implements StringChecker {
         this.two=20;
         this.str2=str2;
     }
+
+    public boolean isValid(String str) {
+        if (str.length() > two || str.length() < one) {
+            return false;
+        } else {
+            if (str.indexOf(str2) != -1) {
+                return false;
+            } else {
+                return true;
+            }
+        }
+    }
+
 
 }

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CodeWordChevker.iml" filepath="$PROJECT_DIR$/CodeWordChevker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeWordChecker.iml" filepath="$PROJECT_DIR$/CodeWordChecker.iml" />
     </modules>
   </component>
 </project>
